@@ -72,11 +72,19 @@ const Footer = () => {
       <section className="footer-menu">
         {footerMenu.map((menu) => {
           return (
-            <ul>
+            <ul style={{ backgroundColor: "white" }}>
               <img src={menu.image} />
-              <li>{menu.foodName}</li>
-              <li>{menu.contain}</li>
-              <li>{menu.price}</li>
+              <li
+                style={{ color: "blue", fontWeight: "600", fontSize: "1rem" }}
+              >
+                {menu.foodName}
+              </li>
+              <li style={{ fontSize: "1rem" }}>{menu.contain}</li>
+              <li
+                style={{ color: "green", fontSize: "1rem", fontWeight: "600" }}
+              >
+                {menu.price}
+              </li>
             </ul>
           );
         })}

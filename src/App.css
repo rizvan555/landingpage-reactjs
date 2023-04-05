@@ -23,6 +23,7 @@ header h2 {
   text-align: center;
   width: 60vw;
   font-size: 1rem;
+  margin-bottom: 5vh;
 }
 .count-section {
   display: flex;
@@ -45,10 +46,10 @@ header h2 {
 }
 .count-box p {
   width: 20vw;
-  font-size: 50px;
+  font-size: 60px;
   color: white;
   margin-bottom: -20px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .count-box span {
   font-size: 15px;
@@ -58,8 +59,9 @@ header h2 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   padding: 5vw;
+  width: 85vw;
 }
 .firstsection h3 {
   font-size: 2rem;
@@ -77,6 +79,10 @@ article {
   width: 30vw;
   gap: 10px;
 }
+article:nth-of-type(2), article:nth-of-type(4){
+  margin-left: 15vw;
+}
+
 .up-side {
   display: flex;
   align-items: center;
@@ -113,9 +119,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 15vw;
-  height: 40vh;
+  height: 45vh;
   list-style-type: none;
-  gap: 5px;
   padding: 0 20px;
 }
 .footer-menu img {
